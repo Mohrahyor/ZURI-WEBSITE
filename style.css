@@ -2,3 +2,194 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body{
+    height: 800px;
+    background-image: url(../img/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.hero-container{
+  text-align: center;
+}
+.hero-container h2{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+.hero-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    /* overflow: hidden; */
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+section.hero-container{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+  color: #E7332B;
+  text-decoration: none;
+}
+.btn1{
+  box-sizing: border-box;
+  padding: 11px 28px;
+  border: 1px solid;
+  margin: 24px;
+  text-transform: none;
+}
+button{
+  background-color: #fff;
+  color: #E7332B;
+  border-color:  #E7332B;
+  cursor: pointer;
+}
+.btn1:hover{
+  color: red;
+  transition: 0.5s;
+}
+.program-info h3{
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center!important;
+}
+.program-info {
+   font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+p{
+    display: block;
+    color: #514949;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ section.program-info{
+    background-color: #fff;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+div.box-container{
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+    flex-flow: flex;
+}
+.zuri.training img{
+  margin-bottom: 48px;
+  vertical-align: middle;
+  border-style: none;
+  text-align: left;
+}
+.zuri.training p{
+  text-align: left!important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+}
+.zuri.training h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+.zuri.internship{
+  width: 100px;
+  padding: 61px 47px 82px 36px;
+  background-color: #FFFAFA;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 24px;
+  display: block;
+  box-sizing: border-box;
+
+}
+.zuri.internship img{
+  margin-bottom: 48px;
+  vertical-align: middle;
+  border-style: none;
+  text-align: left; 
+}
+.zuri.internship p{
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-bottom: 1rem;
+ 
+}
+.zuri.internship h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9; 
+}
+.footer-container{
+  text-align: left;
+  box-sizing: border-box;
+}
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+    align-items: left;
+    width: 100%;
+    box-sizing: border-box;
+}
