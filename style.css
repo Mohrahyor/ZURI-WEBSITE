@@ -1,6 +1,9 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+ font-family: 'Averta', sans-serif;
+
 }
 body{
     height: 800px;
@@ -15,6 +18,7 @@ body{
 }
 .hero-container{
   text-align: center;
+  background: url(hero-bg.svg);
 }
 .hero-container h2{
     font-size: 32px;
@@ -74,7 +78,7 @@ button{
   border-color:  #E7332B;
   cursor: pointer;
 }
-.btn1:hover{
+a:hover{
   color: red;
   transition: 0.5s;
 }
@@ -117,12 +121,23 @@ p{
     font-family: Averta, sans-serif;
 }
 div.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+    align-items: left;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #fff;
     overflow: hidden;
-    display: flex;
-    box-sizing: border-box;
+    flex-direction: column;
     font-family: Averta, sans-serif;
     flex-flow: flex;
+}
+.zuri.training{
+    display: flex;
+    flex-direction: column;
 }
 .zuri.training img{
   margin-bottom: 48px;
