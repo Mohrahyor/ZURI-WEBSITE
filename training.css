@@ -100,7 +100,6 @@ footer {
 .first-section-flex-container {
   width: 100%;
   display: flex;
-  align-items: center;
 }
 
 .left-image-container,
@@ -109,7 +108,7 @@ footer {
   width: 30%;
 }
 
-.left-image-container img,
+.left-image-container img
 .right-image-container img {
   width: 100%;
   height: 90%;
@@ -120,11 +119,9 @@ footer {
   width: 40%;
   text-align: center;
   height: 74vh;
-  background-image: url("maleface.svg"),
-    url("section1wire.svg");
   background-repeat: no-repeat;
   background-position-y: 90%, 100%;
-  background-position-x: left, 76%;
+  background-position-x: le, 76%;
   background-size: 10%, 15%;
 }
 
@@ -328,7 +325,7 @@ footer {
   align-items: center;
   color: #fff;
   background-image: url("section3wire.svg"),
-    url("./images/circles.png");
+    url("circle.png");
   background-repeat: no-repeat;
   background-size: 6%, 10%;
   background-position-y: 10%, 96%;
@@ -559,8 +556,7 @@ footer {
   transform: rotate(180deg);
   transition: transform 300ms ease-in-out;
   opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
+   pointer-events: auto;
 }
 
 .more-questions-container {
@@ -571,10 +567,12 @@ footer {
   gap: 1rem;
   align-items: center;
   text-align: center;
+  padding: 40px 70px;
 }
 
 .more-questions-left h4 {
   color: var(--red-text);
+  padding: 10px 7px;
 }
 
 .more-questions-right button {
@@ -591,6 +589,7 @@ footer {
 
 .more-questions-right a {
   text-decoration: none;
+  padding: 10px 32px;
 }
 
 .structure-container {
@@ -621,7 +620,7 @@ h3.section-head {
   padding: 0 6.5rem;
   gap: 1.5rem;
   margin-top: 4.9rem;
-  background-image: url("./images/circle.png");
+  background-image: url("circle.png");
   background-repeat: no-repeat;
   background-size: 11%;
   background-position: 95% bottom;
@@ -769,7 +768,7 @@ h3.section-head {
   color: #fff;
   border-radius: 1.5rem;
   background-image: url("bend1.svg"), url("round.svg"),
-    url("./images/circles.png"), url("curve2.svg");
+    url("circle.png"), url("curve2.svg");
   background-repeat: no-repeat;
   background-size: 8%;
   background-position-x: 100%, 15%, 100%, 0%;
@@ -993,7 +992,7 @@ footer li a {
   .fifth-section {
     flex-direction: column;
     background-image: url("section3wire.svg"),
-      url("./images/circles.png")
+      url("circle.png")
     background-repeat: no-repeat;
     background-size: 15%, 10%;
     background-position-y: 4%, 96%;
@@ -1053,7 +1052,7 @@ footer li a {
   .program-structure {
     flex-direction: column;
     padding: 0 0 6rem 0;
-    background-image: url("./images/circle.png");
+    background-image: url("circle.png");
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right bottom;
@@ -1085,7 +1084,7 @@ footer li a {
     color: #fff;
     border-radius: 1.5rem;
     background-image: url("bend1.svg"),
-      url("round.svg"), url("./images/circles.png"),
+      url("round.svg"), url("circle.png"),
       url("curve2.svg");
     background-repeat: no-repeat;
     background-size: 25%;
@@ -1215,7 +1214,6 @@ footer li a {
     transform: translateY(0);
   }
 }
-
 
 
 

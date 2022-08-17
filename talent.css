@@ -130,6 +130,8 @@ header {
 .first-section-left,
 .first-section-right {
   width: 48%;
+  text-align: center;
+  justify-content: center;
 }
 
 .first-section-left-heading {
